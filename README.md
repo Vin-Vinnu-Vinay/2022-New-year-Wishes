@@ -1,1 +1,1 @@
-# 2022-New-year-Wishes
+# New-Year-2022-Wishes

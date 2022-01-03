@@ -26,6 +26,10 @@ span{
     margin-left: 150px;
 }
 
+#span1{
+    margin-left: 150px;
+}
+
 #card{
     background-color: gold;
     width: 450px;
@@ -38,6 +42,13 @@ span{
     margin-left: 60px;
     padding-top: 15px;
 }
+
+#heading1{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
 button{
     background-color: black;
     color: gold;
@@ -130,4 +141,95 @@ input{
   #message{
       font-size: 30px;
       padding: 10px;
+  }
+
+
+  @media only screen and (max-width:730px) {
+    nav{
+        height: 40px;        
+        font-size: 25px;          
+    }
+    footer{
+        height: 30px;
+    }
+    span{
+        margin-left: 50px;
+    }
+  }
+
+  @media only screen and (max-width:450px) {
+    nav{
+        height: 65px;        
+        font-size: 25px;          
+    }
+    footer{
+        height: 35px;
+        font-size: 15px;
+    }
+    span{
+        margin-left: 50px;
+    }
+    #card{
+        width: 300px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    #div1{
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+    
+    #heading1{
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #span1{
+        margin-left: 0px;
+    }
+    input{
+        margin-left: 60px;
+        margin-top: 10px;
+        height: 20px;
+        width: 200px;
+        font-size: 18px;
+    }
+    #frnd{
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #me{
+        width: 300px;
+        height: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    #frame{
+        margin-top: 25px;
+        margin-bottom: 100px;
+        height: 932px;
+        display: block;
+        width: 320px;
+    }
+    
+    #message{
+        display: block;
+        border: 1px solid gold;
+        background-color: rgba(0,0,0,1 );
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+        width: 275px;
+        height: 200px;
+        font-size: 15px;
+    }
   }
